@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String var = text.getText().toString();
                 int variable = Integer.valueOf(var);
                 variable++;
-                text.setText(String.valueOf(variable));
+                text.setText(String.valueOf(variable+123));
                 break;
             case R.id.button2 :
 
